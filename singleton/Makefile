@@ -9,4 +9,4 @@ main.o : main.cpp config.cpp
 
 .PHONY : clean
 clean :
-	-rm -rf *.o *.core
+	-rm -rf singleton *.o *.core
